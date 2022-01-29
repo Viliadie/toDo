@@ -3,12 +3,12 @@
   function addTask(task) {
   if (task!==list[task]) {
       list[task]='To do';
-      } else {console.log('Task already added')}
+      } else {console.log('Task already added');}
        }
   
   function changeStatus(task, status) {
   if (task in list) list[task]=status;
-  else {console.log('Task does not exist')}
+  else {console.log('Task does not exist');}
   }
   
   function deleteTask(task) {
